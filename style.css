@@ -1,68 +1,17 @@
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("./assets/JetBrainsMono-Regular.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Aleo";
-  src: url("./assets/Aleo-Bold-Italic.tff") format("tff");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Aleo";
-  src: url("./assets/Aleo-Bold.tff") format("tff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Aleo";
-  src: url("./assets/Aleo-Light-Italic.tff") format("tff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Aleo";
-  src: url("./assets/Aleo-Light.tff") format("tff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Aleo";
-  src: url("./assets/Aleo-Italic.tff") format("tff");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Aleo";
-  src: url("./assets/Aleo-Regular.tff") format("tff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 svg {
   filter: drop-shadow(2px 0px 3px rgb(0 0 0));
 }
 
 * {
   box-sizing: border-box;
-  font-family: Aleo, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", sans-serif;
+  font-family: Noto+Serif+SC, Georgia, 'Source Serif Pro' 'Times New Roman', serif;
   margin: auto;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
+}
+
+em {
+  font-style: normal; 
+  color: #fbab40;
 }
 
 .bg-image {
@@ -159,13 +108,16 @@ svg {
 
 .options > a {
   color: #FFFFFF;
-  text-decoration: underline;
-  text-decoration-color: #fbab40;
   margin: 0px 8px;
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
-  text-shadow: 2px 0px 3px #000
+  text-shadow: 2px 0px 3px #000;
+  text-decoration: none;
+}
+
+.options > a:hover {
+	text-decoration: underline; 
 }
 
 .options > a:first-of-type {
@@ -175,23 +127,6 @@ svg {
 .options > img {
   width: 60px;
   height: 50px;
-}
-
-.learn-more > a > button {
-  background: #f6821f;
-  border-radius: 4px;
-  border: none;
-  width: 180px;
-  margin-top: 78px;
-  height: 55px;
-  color: #ffffff;
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  background: rgba(246, 130, 31, 1);
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
 }
 
 
